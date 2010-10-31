@@ -400,3 +400,26 @@ AdBlock+: Deutsche EasyList + Dr. Evil List
 
   - Herunterladen & Installieren
     [http://git-scm.com/download]
+    
+3.2.20 Mitwachsendes DiskImage für persönliche Daten erstellen
+
+  Mit Hilfe von mitwachsenden DiskImages ist es ein leichtes, 
+  Dateien “sicher” zu verstecken. Auf der Festplatte wird eine Datei erstellt,
+  die der Finder dann als neue Festplatte mounten kann.
+  Durch starke AES Verschlüsselung und gut gewählte Passwörter werden die Daten geschützt.
+  
+  “Disk Utility” -> “New Image”
+  - Name: Image
+  - Größe: 2GB
+  - Format: Mac OS Extended (Journaled)
+  - Verschlüsselung: höchstes nehmen
+  - Partitionen: hard disk 
+  - Image Format: Sparse Bundle disk image
+  
+  Durch die Auswahl von “Sparse Bundle DiskImage” kann TimeMachine den Image Typ erkennen
+  und bei einer Datensicherung werden nur geänderte Daten übertragen - anstatt das gesamte Image.
+  
+  Um das Image wieder zu verkleinern (nach Datenlöschung):
+  - Papierkorb leeren
+  # Disk Image verkleinern
+  # hdiutil compact /path/to/image.dmg  
