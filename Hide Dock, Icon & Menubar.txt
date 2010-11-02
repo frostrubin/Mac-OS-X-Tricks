@@ -1,0 +1,35 @@
+0. Preface
+
+  This is a short description, how you can set up an application,
+  so that it's icon is no longer shown in the Dock.
+  As well, it is also possible to hide the Menubar and the complete dock,
+  while the application is running.
+
+1. Opening the config file
+  
+  - Go the the application you want to manipulate
+  - Right-click on it and choose "Show Package Contents"
+  - Navigate to the "Contents/info.plist" file and open it
+  - The "Property List Editor" should open up.
+  
+2. Adding the values
+
+  - Select the top-most node and hit the "Add Child" button
+
+2.1 Hiding Menubar and Dock
+
+  - As a name enter 
+    "LSUIPresentationMode" to hide the menubar and the dock 
+    while the application is running.
+  - As a value enter "4". Do not use the provided drop-down menu,
+    instead double click the value and enter it hard.
+  - Save and Close
+
+2.2 Hiding the Dock Icon
+
+  - If you want to just hide the dock icon, enter
+    "NSUIElement" as new name.
+  - As a value enter "1".
+  - If this does not work, try to use "LSUIElement" with value "1".
+  - Save and Close
+    
