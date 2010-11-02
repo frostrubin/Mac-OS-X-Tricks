@@ -33,3 +33,8 @@
   - If this does not work, try to use "LSUIElement" with value "1".
   - Save and Close
     
+2.3 Find out more
+  
+  At Apple's Site about these keys you can get more info and 
+  gain a detailed insight of what is possible.
+  [http://developer.apple.com/library/mac/#documentation/General/Reference/InfoPlistKeyReference/Articles/LaunchServicesKeys.html]
