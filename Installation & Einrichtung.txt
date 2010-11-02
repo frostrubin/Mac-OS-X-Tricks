@@ -1,4 +1,4 @@
-0. Vorwort
+0. Vorwort - Das Linux, nach dem ich immer gesucht habe ...
 
   Diese Anleitung beschreit, wie ich meinen Mac einrichte.
   Um an alle Terminal Kommandos zu kommen, ohne sie einzeln kopieren zu müssen,
