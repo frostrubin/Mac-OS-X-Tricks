@@ -401,7 +401,15 @@ AdBlock+: Deutsche EasyList + Dr. Evil List
   - Herunterladen & Installieren
     [http://git-scm.com/download]
     
-3.2.20 Mitwachsendes DiskImage für persönliche Daten erstellen
+3.2.20 ImageMagick installieren
+
+  Auf [http://www.imagemagick.org/script/binary-releases.php] heruntrladen und den dortigen Anweisungen folgen.
+  # Angepasste ImageMagick Installation
+  # export MAGICK_HOME="$HOME/.functions/ImageMagick-6.6.4"
+  # export PATH="$MAGICK_HOME/bin:$PATH"
+  # export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib"
+    
+3.2.21 Mitwachsendes DiskImage für persönliche Daten erstellen
 
   Mit Hilfe von mitwachsenden DiskImages ist es ein leichtes, 
   Dateien “sicher” zu verstecken. Auf der Festplatte wird eine Datei erstellt,
