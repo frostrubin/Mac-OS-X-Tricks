@@ -250,6 +250,9 @@
     [http://www.google.com/chrome]
   - Iconverter
     [http://osx.iusethis.com/app/iconverter]
+    oder
+    icon2icns
+    [http://osxiconeditor.phatcode.net/icon2icns.html]
   - MetaX
     [http://www.kerstetter.net/index.php/projects/software/metax]
   - JDownloader
