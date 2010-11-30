@@ -11,13 +11,13 @@ Diese Anleitung beschreibt, wie ich meinen Mac einrichte.
 Um an alle Terminal Kommandos zu kommen, ohne sie einzeln kopieren zu müssen,
 kann man ein kleines Script ausführen:
 ----
-> cat Installation\ \&\ Einrichtung.txt | grep '^  [\$#]'
+> cat Installation\ \&\ Einrichtung.txt | grep '^[\$#]'
 ----
  
 Will man nur die Kommandos zu einem Thema haben, merkt man sich die Zeilen-Nummern
 von Anfang und Ende und übergibt sie einem leicht modifizierten Script:
 ----
-> cat Installation\ \&\ Einrichtung.txt | sed -n '8,12p' | grep '^  [\$#]'
+> cat Installation\ \&\ Einrichtung.txt | sed -n '8,12p' | grep '^[\$#]'
 ---- 
 gibt z.B. alle Kommandos und Kommentare zwischen den Zeilen 8 und 12 aus.
  
