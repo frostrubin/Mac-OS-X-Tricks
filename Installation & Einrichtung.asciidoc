@@ -268,6 +268,8 @@ $ killall Finder
 === Obligatorische Software
 * Air Video Server +
   http://www.inmethod.com/air-video/index.html
+* Alarm Clock 2 +
+  http://www.robbiehanson.com/alarmclock/index.html
 * BetterTouchTool +
   http://blog.boastr.net
 * DaisyDisk +
