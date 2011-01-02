@@ -287,6 +287,8 @@ $ killall Finder
   oder +
   icon2icns +
   http://osxiconeditor.phatcode.net/icon2icns.html
+* MacVim +
+  http://code.google.com/p/macvim/
 * MetaX +
   http://www.kerstetter.net/index.php/projects/software/metax
 * JDownloader +
@@ -325,6 +327,19 @@ http://www.mupdf.com
 ==== git
 Herunterladen & Installieren +
 http://git-scm.com/download
+
+==== AsciiDoc
+Herunterladen & Installieren +
+http://www.methods.co.nz/asciidoc/INSTALL.html
+
+Vim Syntax Highlighter nach .vim kopieren und um *.asciidoc ergänzen.
+
+==== MacVim
+L9 Library nach .vim installieren +
+http://www.vim.org/scripts/script.php?script_id=3252
+
+ACP nach .vim installieren +
+http://www.vim.org/scripts/script.php?script_id=1879
  
 ==== ImageMagick
 Auf der Homepage herunterladen und den dortigen Anweisungen folgen. +
