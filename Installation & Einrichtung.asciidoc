@@ -458,3 +458,9 @@ Um das Image wieder zu verkleinern (nach Datenlöschung):
 # Disk Image verkleinern
 # hdiutil compact /path/to/image.dmg
 ----
+
+== Problemlösung
+=== Öffnen Mit Dialog neu Aufbauen
+----
+# /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain system -domain user
+----
