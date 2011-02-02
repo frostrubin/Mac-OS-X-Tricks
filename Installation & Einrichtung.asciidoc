@@ -120,6 +120,7 @@ $ ln -s /pub/Library/Keychains/ ~/Library/Keychains/
 $ ln -s /pub/Library/Application\ Support/Adium\ 2.0/ ~/Library/Application\ Support/Adium\ 2.0/
 $ ln -s /pub/Library/Application\ Support/BetterTouchTool/ ~/Library/Application\ Support/BetterTouchTool/
 $ ln -s /pub/Library/Application\ Support/Flow/ ~/Library/Application\ Support/Flow/
+$ ln -s /pub/Library/Application\ Support/MobileSync/ /Users/bernhard/Library/Application\ Support/MobileSync/
 $ ln -s /pub/Library/ColorPickers ~/Library/ColorPickers
 $ ln -s /pub/Library/Screen\ Savers/ ~/Library/Screen\ Savers/
 $ ln -s /pub/Library/Services/ ~/Library/Services/
