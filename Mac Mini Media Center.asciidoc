@@ -120,5 +120,8 @@ $ killall Finder
   http://www.macupdate.com/app/mac/24116/front-row-trailers/
   * Perian
   * Flip4Mac
+* Mediathek +
+  http://appdrive.net/mediathek/
+* Aquarium
  
 

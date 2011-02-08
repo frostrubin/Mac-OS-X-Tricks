@@ -420,6 +420,10 @@ Unter Mac OS X sind sie einer der häufigsten Virenverbreitungswege.
   http://davidmcnerney.com/MovingPhotos3D/index.html
  
 == Kleinere Einstellungen
+=== TimeMachine
+Die TimeMachine Backups sollte man regelmäßig nicht nur machen, sondern auch überprüfen.
+Hierzu mit gedrückter Alt-Taste "Verify Backups" in der Menüleiste wählen.
+
 === Firefox
 Im Firefox das Deutsche Wörterbuch und AdBlock+ hinzufügen
 AdBlock+: Deutsche EasyList + Dr. Evil List
